@@ -14,12 +14,14 @@ export class UserService {
   ) {
   }
 
-  getUserById(id: string) {
-    return this.angularFireStore.collection(this.collectionName).doc(id).valueChanges();
+  getUsers() {
+    return this.angularFireStore.collection(this.collectionName)
+      .snapshotChanges();
   }
 
-  getUsers() {
-    return this.angularFireStore.collection(this.collectionName).snapshotChanges();
+  getUserById(id: string) {
+    return this.angularFireStore.collection(this.collectionName)
+      .doc(id).valueChanges();
   }
 
   createUser(user: User) {
