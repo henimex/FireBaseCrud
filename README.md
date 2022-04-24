@@ -27,3 +27,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 ## Documentation
 https://remotestack.io/angular-firebase-firestore-real-time-crud-example-tutorial/
+
+##Inner Join will be applied soon
+https://medium.com/@joaqcid/how-to-inner-join-data-from-multiple-collections-on-angular-firebase-bfd04f6b36b7
